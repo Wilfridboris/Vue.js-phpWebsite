@@ -1,0 +1,255 @@
+body{
+    padding:0;
+    margin: 0;
+    background: rgb(20, 20, 20);
+   
+    
+}
+/*Head style you can cut begin*/
+.navbar{
+    background: rgb(20, 20, 20);
+    height:50px;
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+}
+h1{
+    color: #f7fff7;
+
+   
+}
+.searchBar input[type=text]{
+    border: none;
+    outline: none;
+    margin: 0px 4px 4px 0px;
+    border-radius: 50px;
+    
+  
+    
+}
+
+.left-head-menu h1{
+    font-size: 30px;
+    
+}
+.center-head-menu p i{
+    color: #f7fff7;
+}
+.right-head-menu {
+    text-align: right;
+}
+.right-head-menu h1{
+    font-size: 18px;
+   
+}
+/*Head style you can cut end*/
+
+/**all artist style begin*/
+
+
+.All-Artists ul{
+    padding-left: 10px;
+ }
+ .All-Artists li{
+     list-style-type: none;
+ }
+ .All-Artists li a{
+     color: gray;
+     display: block;
+ }
+ /**all artist style begin*/
+
+
+ /*my panel style begin*/
+.panel{
+    background: rgb(20, 20, 20);
+    text-align: left;
+}
+.panel ul{
+    padding-left: 10px;
+}
+.panel li{
+    list-style-type: none;
+   
+}
+.panel a{
+    color: gray;
+    display: block;
+    padding-left: 20px;
+    
+}
+.selected{
+    border-left: 3px solid green;
+}
+/*my panel style end*/
+
+
+/*AlbumPanel style begin*/
+
+
+.AlbumSection{
+ display: grid;
+grid-template-columns: 2fr 2fr;
+
+
+}
+
+
+.coverAlbum{
+    padding:10px 0px 0px 40px;
+}
+
+.coverTitle{
+    padding:10px 0px 0px 0px;
+    
+}
+.albumDelimiter{
+    margin-left: 35px;
+    padding: 20px 0 20px 0px;
+    border-bottom: 1px solid rgb(78, 78, 78) ;
+    color: #f7fff7;
+
+}
+.AlbumCenterPanel ul{
+    margin-top: 15px;
+}
+.AlbumCenterPanel ul li {
+    list-style: none;
+    border-bottom: 1px solid rgb(78, 78, 78) ;
+    padding: 5px 0px 5px 0px;
+    
+}
+.AlbumCenterPanel ul li:hover {
+    background: rgb(37, 37, 37);
+   
+    
+}
+.AlbumCenterPanel ul li a {
+   display: grid;
+   grid-template-columns: 1fr 3fr 1fr;
+   text-decoration: none;
+   
+    
+}
+.AlbumCenterPanel ul section {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    border-bottom: 1px solid rgb(78, 78, 78) ;
+    
+     
+ }
+ .AlbumCenterPanel ul section h3 {
+    color:#bebebe;
+    font-size: 20px;    
+     
+ }
+.AlbumCenterPanel ul li a h3 {
+    color:#bebebe;
+    font-size: 20px;
+    
+    
+     
+ }
+
+/*AlbumPanel style end*/
+
+/*MusicPlayer style begin*/
+#time,#duration{
+    color: #f7fff7;
+    padding-left: 10px;
+}
+.volume{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin: 10px 0px 10px 0px;
+
+}
+#mute{
+    background: none;
+    outline-style: none;
+    border: none;
+    
+
+}
+#mute i{
+    color: #f7fff7;
+    
+
+}
+.buttons{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    margin: 10px 0px 20px 0px;
+
+}
+#play{
+   background: none;
+   border-radius: 20px;
+   border:2px solid #f7fff7;
+   padding: 5px;
+   outline-style: none;
+
+   
+   
+}
+#play:hover{
+   transform: scale(1.1); 
+    
+ }
+
+ 
+#pre,#next{
+    background: none;
+    border: none;
+    outline-style: none;
+    
+ }
+ #pre a i:hover,#next a i:hover{
+    color: #ffffff;
+    
+ }
+ button:last-of-type a i,button:first-of-type a i{
+    color: #adadad;
+    
+    
+    
+ }
+.div button a{
+    text-decoration: none;
+   
+    
+    
+}
+button a i{
+    color: #f7fff7;
+    
+    
+}
+
+
+#bar{
+   height: 5px;
+   background: gray;
+   border-radius: 50px;
+   cursor: pointer;
+   display: flex;
+}
+.player{
+    text-align: center;
+}
+#fill{
+    height: 5px;
+    width: 10px;
+    background: rgb(87, 189, 87);
+    border-radius: 20px;
+}
+#handle{
+    width: 8px;
+    height: 8px;
+    background: rgb(87, 189, 87);
+    border-radius: 50px;
+    transform: scale(2);
+}
+.songTitle a{
+    color: #f7fff7;
+}
+/*MusicPlayer style end*/

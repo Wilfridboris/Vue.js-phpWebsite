@@ -1,0 +1,134 @@
+
+body{
+    padding:0;
+    margin: 0;
+    background: rgb(20, 20, 20);
+   
+    
+}
+/*Head style you can cut begin*/
+.navbar{
+    background: rgb(20, 20, 20);
+    height:50px;
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+}
+h1{
+    color: #f7fff7;
+
+   
+}
+.searchBar input[type=text]{
+    border: none;
+    outline: none;
+    margin: 0px 4px 4px 0px;
+    border-radius: 50px;
+    
+  
+    
+}
+
+.left-head-menu h1{
+    font-size: 30px;
+    
+}
+.center-head-menu p i{
+    color: #f7fff7;
+}
+.right-head-menu {
+    text-align: right;
+}
+.right-head-menu h1{
+    font-size: 18px;
+   
+}
+/*Head style you can cut end*/
+
+/**all artist style begin*/
+
+
+.All-Artists ul{
+    padding-left: 10px;
+ }
+ .All-Artists li{
+     list-style-type: none;
+ }
+ .All-Artists li a{
+     color: gray;
+     display: block;
+ }
+ /**all artist style begin*/
+
+
+ /*my panel style begin*/
+.panel{
+    background: rgb(20, 20, 20);
+    text-align: left;
+}
+.panel ul{
+    padding-left: 10px;
+}
+.panel li{
+    list-style-type: none;
+   
+}
+.panel a{
+    color: gray;
+    display: block;
+    padding-left: 20px;
+    
+}
+.selected{
+    border-left: 3px solid green;
+}
+/*my panel style end*/
+
+/*Top Panel Style begin*/
+
+
+.TopPanel ul{
+  display: flex;
+  margin-top: 15px;
+  background:rgb(14, 14, 14);
+}
+.TopPanel ul li{
+    list-style: none;
+}
+.TopPanel ul li a{
+    color: gray;
+    font-weight: bold;
+    margin-left: 15px;
+}
+h2{
+    color: #f7fff7;
+    
+}
+
+
+/*Top Panel Style end*/
+
+/*Center Panel Style begin*/
+.CenterPanel .logos{
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    margin: 15px;
+    background:rgb(75, 74, 74);
+    
+    
+}
+.logos .fix-title{
+   text-align: center;
+   position: relative;
+}
+.CenterPanel .logos a{
+    position: absolute;
+    top: -90px;
+    left:  35px;
+    color: #f7fff7;
+    
+}
+/*Center Panel Style end*/
+
+

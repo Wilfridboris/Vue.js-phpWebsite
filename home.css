@@ -1,0 +1,128 @@
+html{
+    box-sizing: border-box;
+    
+}
+*,*:before,*:after{
+    box-sizing: inherit;
+} 
+
+body{
+    padding:0;
+    margin: 0;
+    background: rgb(20, 20, 20);
+    
+}
+/*Head style you can cut begin*/
+.navbar{
+    background: rgb(20, 20, 20);
+    height:50px;
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+}
+h1{
+    color: #f7fff7;
+   
+}
+.searchBar input[type=text]{
+    border: none;
+    outline: none;
+    margin: 0px 4px 4px 0px;
+    border-radius: 50px;
+    
+  
+    
+}
+
+.left-head-menu h1{
+    font-size: 30px;
+    
+}
+.center-head-menu p i{
+    color: #f7fff7;
+}
+.right-head-menu {
+    text-align: right;
+}
+.right-head-menu h1{
+    font-size: 18px;
+   
+}
+/*Head style you can cut end*/
+
+/*my panel style begin*/
+.panel{
+    background: rgb(20, 20, 20);
+    text-align: left;
+}
+.panel ul{
+    padding-left: 10px;
+}
+.panel li{
+    list-style-type: none;
+   
+}
+.panel a{
+    color: gray;
+    display: block;
+    padding-left: 20px;
+    
+}
+.selected{
+    border-left: 3px solid green;
+}
+/*my panel style end*/
+
+/*my main panel style begin*/
+
+.logos{
+    display: inline-block;
+    text-align: center;
+    background: #f7fff7;
+    border-radius: 50px;
+    padding: 20px 30px;
+    margin: 20px;
+}
+
+.mainpanel .logos a{
+    text-decoration: none;
+    color: rgb(77, 77, 77);
+}
+.mainpanel .logos a:first-of-type h1{
+    color: rgb(77, 77, 77);
+    font-size: 30px;
+}
+.mainpanel .logos a:last-of-type h1{
+    color: rgb(77, 77, 77);
+    font-size: 15px;
+}
+.mainpanel .logos:hover{
+    background: #c9cec9;
+}
+.mainpanel .logos a h1:hover{
+    color: black;
+}
+.mainpanel img{
+   border-radius: 80px;
+}
+.mainpanel h2{
+    color: #f7fff7;
+    padding:10px;
+    border-bottom: 1px solid rgb(56, 55, 55) ;
+}
+/*my main panel style end*/
+
+
+/**all artist style begin*/
+
+
+.All-Artists ul{
+   padding-left: 10px;
+}
+.All-Artists li{
+    list-style-type: none;
+}
+.All-Artists li a{
+    color: gray;
+    display: block;
+}
+/**all artist style begin*/
