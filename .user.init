@@ -1,0 +1,11 @@
+; if your server supports  .user.ini files,save file 
+; Save the file as .user.ini with a leading dot in the server
+; document root folder on apache server.
+; configuration directives that set a value are preceded by php_value.
+; Directives that turn a setting on or off are preceded by php_flag.
+;lines beginning with a semicolon are ignored
+
+
+;php_flag display_errors on
+php_value extension sqlite3
+
