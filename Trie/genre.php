@@ -30,7 +30,7 @@
                 </div>
             </div>
     </main>
-<script src="../dependencies/vue.js"></script>
+<script src="../dependencies/vue.min.js"></script>
 <script src="../dependencies/jquery.js"></script>
 <script src="./genre.js"></script>
 </body>
