@@ -1,7 +1,8 @@
+
 {
-    "required": {
+    "require": {
         "php":"5.2.0",
         "ext-sqlite3":"*",
         "ext-pdo_sqlite":"*"
     }
-  }
+}
