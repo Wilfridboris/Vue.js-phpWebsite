@@ -25,7 +25,7 @@ el:'#mainpanel',
 methods:{
     //Loads all artist in the doom begin
         loadArtist:function(){
-            $.get("functions/getArtist.php",function(data){
+            $.get("../functions/getArtist.php",function(data){
                  var artists= JSON.parse(data);
                  for(var i in artists){
                      $('#shortCuts').after(` <section id="shortCut" class="logos">
@@ -43,7 +43,7 @@ methods:{
             })
         },
         loadAllartist:function(){
-            $.get("functions/getAllArtist.php",function(data){
+            $.get("../functions/getAllArtist.php",function(data){
                var all=JSON.parse(data);
                 for(var i in all){
                     $('#all').append(`<li><a href="./Artists/albums.php?${all[i].Name_Artist}">${all[i].Name_Artist}</a></li>`)
